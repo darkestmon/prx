@@ -1,0 +1,28 @@
+#config-modal .delete-button .icon{
+    color: #ccc;
+    cursor: pointer;
+    font-size: 20;
+    margin-top: 5px;
+}
+#config-modal .delete-button:hover .icon{
+    color: #666;
+}
+#config-modal .delete-button.active .icon{
+    color: #c00;
+}
+#config-modal input:disabled {
+    text-decoration: line-through;
+}
+#config-modal .bootstrap-select button:disabled .filter-option {
+    text-decoration: line-through;
+}
+.table-btn {
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+.table-btn .filter-option {
+    margin-top: 4px;
+}
+#config-modal{
+    overflow-y: auto;
+}

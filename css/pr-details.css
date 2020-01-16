@@ -1,0 +1,9 @@
+#rd-info {
+    max-height: 30%;
+    overflow: auto;
+}
+
+#notes {
+    max-height: 10%;
+    overflow: auto;
+}

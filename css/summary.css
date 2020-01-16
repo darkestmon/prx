@@ -1,0 +1,48 @@
+.summary {
+    background-color: #fff;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.summary .badge {
+    font-size: 15px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.summary .release-row {
+    cursor: pointer;
+}
+
+.summary .table {
+    font-size: 12px;
+    background-color: #ffe;
+    border:3px solid #666;
+}
+.summary .table.table-bordered th{
+  border:1px solid #000;
+}
+.summary .table.table-bordered td{
+  border:1px solid #000;
+}
+
+.summary .table th:first-child {
+    background-color: #fff;
+}
+.summary .table td:first-child {
+    background-color: #fb79;
+}
+.summary .table td.zero {
+    color: #ddd;
+}
+.summary .table .td-total {
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+    font-weight: bold;
+}
+.summary .table .td-binaries {
+    width: 60px;
+}
+.summary .disclaimer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}

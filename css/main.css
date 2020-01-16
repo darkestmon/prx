@@ -1,0 +1,162 @@
+
+html {
+    font-size: 12px;
+}
+body {
+    background: #990000;
+    font-family: "Arial";
+    overflow: hidden;
+}
+a, a:hover {
+    color: 0;
+}
+table td, table th{
+    font-size: 11px;
+}
+td .badge{
+    font-size: 12px;
+    font-family: Arial Narrow;
+}
+
+.modal-content{
+    border: 5px solid #990000;
+}
+.modal .field-name{
+    font-family: 'Arial';
+    font-style: italic;
+}
+.modal-header, .modal hr{
+    border-color: #990000;
+}
+.modal-body{
+    padding: 0;
+}
+
+
+#page-title {
+    background: #fff;
+    margin: 0;
+}
+#title-logo {
+    padding: 5px;
+}
+#title-caption {
+    position: absolute;
+    bottom: 2px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#navigation {
+    padding-top: 2px;
+    font-size: 16px;
+}
+
+#navigation .nav-link div{
+    font-family: Arial;
+    text-transform: uppercase;
+    border-color: #666;
+    color: #666;
+    border: 0;
+    border-bottom: 2px;
+    border-style: none;
+}
+#navigation .nav-link:hover div {
+    color: #000;
+    border-style: solid;
+}
+#navigation .nav-link.active div {
+    color: #990000;
+    border-style: solid;
+}
+.header-right div{
+    float: right;
+}
+.header-right .header-button .icon{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 30;
+    color: #666;
+    cursor: pointer;
+}
+.header-right .header-button:hover .icon{
+    color: #990000;
+}
+#refresh-status {
+    padding-top: 3px;
+}
+#table-scroller {
+    overflow: auto;
+    height: calc(100% - 100px);
+}
+#pr-table {
+    height: 0;
+    background-color: #fffce9;
+    margin: 0;
+}
+#pr-table th {
+    border-top: 0;
+    background-color: darkgray;
+}
+#pr-table thead tr:nth-child(1) th {
+    position: sticky;
+    top: 0;
+}
+#pr-table td {
+    cursor: pointer;
+}
+#pr-table td, #pr-table th{
+    max-width: 100px;
+    overflow: hidden;
+    padding-top: .2rem;
+    padding-bottom: .1rem;
+}
+
+#pr-table .td-status{
+    padding: 0px;
+}
+#pr-table .td-status div{
+    width:10px;
+    height: 100%;
+}
+
+tbody .table-more-danger td{
+    background: #f7a8a8;
+}
+
+tbody .table-more-danger:hover td{
+    background: #ea9a9a;
+}
+
+
+.btn-xs {
+  padding  : .25rem .4rem;
+  font-size  : .875rem;
+  line-height  : .5;
+  border-radius : .2rem;
+}
+
+.block-green {
+    background-color: #5e5;
+}
+
+.block-yellow {
+    background-color: #ec2;
+}
+
+.block-orange {
+    background-color: #f90;
+}
+
+.block-red {
+    background-color: #f33;
+}
+
+.block-pink {
+    background-color: #f99;
+}
+
+.block-gray {
+    background-color: #666;
+    color: #fff;
+}
